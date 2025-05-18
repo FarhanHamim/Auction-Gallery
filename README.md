@@ -118,30 +118,6 @@ To get a local copy up and running, follow these simple steps.
 
     This will typically open the application in your default web browser at `http://localhost:5173` (the port might vary if 5173 is in use).
 
-## Project Structure (Anticipated)
-
-The project likely follows a structure typical for Vite + React applications:
-
-Auction-Gallery/
-├── public/
-│   └── auctionItems.json  # Static JSON data for auction items
-├── src/
-│   ├── assets/            # Images, logos, etc.
-│   ├── components/        # Reusable UI components (e.g., Navbar, Footer, AuctionCard, FavoriteItem)
-│   ├── layouts/           # Main layout structure
-│   ├── pages/             # Page components (e.g., Home, AllBids, FavoritesPage)
-│   ├── routes/            # Route definitions
-│   ├── App.jsx            # Main application component
-│   ├── main.jsx           # Entry point for React
-│   └── index.css          # Global styles / Tailwind imports
-├── .eslintrc.cjs          # ESLint configuration
-├── .gitignore             # Specifies intentionally untracked files
-├── index.html             # Main HTML file served by Vite
-├── package.json           # Project metadata, scripts, and dependencies
-├── postcss.config.js      # PostCSS configuration (for Tailwind)
-├── tailwind.config.js     # Tailwind CSS configuration
-├── vite.config.js         # Vite configuration
-└── README.md              # This file
 
 ## How to Use
 
